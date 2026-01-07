@@ -23,3 +23,17 @@ print("End of the code")
     #  Elif is check once when the if statement is false.
     # when all the condition is false, else will be executed.  
     # Indentation => to combine multiple statement. 
+
+#Nesting with condition 
+# if(condition): if(condition2): print
+
+age = 84
+
+if(age>=18):
+    if(age>=80):
+        print("cannot drive")
+    else:
+        print('can drive')
+    
+else: 
+    print('cannot drive')
