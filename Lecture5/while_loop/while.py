@@ -21,7 +21,7 @@
 
 'eg: 3'
 i = 5
-while i>=1:
+while i>=1: #stopping condition
     print(i)
     i-=1
 
