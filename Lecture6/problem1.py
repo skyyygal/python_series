@@ -1,9 +1,10 @@
 # WAF TO PRINT THE LENGTH OF A LIST. (list is the parameter)
 
-list = [1, 2, 3, 4, 5, 6]
-
-def len_list(param):
-   length= len(param)
+heroes = ["Thor", "ironman", "spiderman", "superman", "batman", 6]
+cities = ["Chennai", "Bengaluru", "Mumbai", "Pune", "Hyderabad", "Delhi"]
+cities
+def len_list(list):
+   length= len(list)
    print(length)
    return length
 
