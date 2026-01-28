@@ -6,6 +6,13 @@ class Student():
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
+# this fn doesnt need self. 
+# it will only work if we make it static or use self. 
+#  or throws type error: TypeError: Student.college() takes 0 positional arguments but 1 was given
+    @staticmethod
+    def college():
+        print("ABC College")
+
     
     def get_average(self):
         sum = 0
@@ -19,3 +26,4 @@ s1.get_average()
 
 s1.name ="Anita Pandey"
 s1.get_average()
+s1.college()
